@@ -1,0 +1,55 @@
+#navbarSupportedContent .nav-link{
+    font-weight: 400;
+    margin-inline-start: 70px;
+    font-size: 18px;
+    color: black;
+}
+#navbarSupportedContent .nav-link:hover,
+#navbarSupportedContent .nav-link:active,
+#sear button:hover, #sear button:active{
+     font-size: 20px;
+}
+.logoo:hover img, .logoo:active img{
+    width: 150px;
+}
+
+#carouselExampleControlsNoTouching h1,
+#carouselExampleControlsNoTouching p{
+    margin: 70px;
+    text-align: center;
+    color:white;
+
+}
+#carouselExampleControlsNoTouching div{
+    height: 500px;
+    background-size: cover;
+}
+#servicee img{
+    height: 300px;
+    border: solid black 5px;
+}
+#servicee .servic{
+    border: solid black 3px;
+}
+.aboutt img{
+    width: 100%;
+}
+#about_us{
+    border: solid black 5px;
+    padding: 50px;
+}
+.btooon:hover, .btooon:active{
+    color: white;
+    background-color: black;
+}
+.namee{
+    padding: 20px;
+    border: solid black 3px;
+    border-radius: 100px;
+}
+.textt{
+    border-radius: 100px;
+}
+.footer-icons li a:hover i{
+color:red;
+}
