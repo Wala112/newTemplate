@@ -33,6 +33,24 @@
                     <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-sm fa-fw me-2"></i></a>
                     <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-sm fa-fw"></i></a>
                 </div>
+                <div> 
+                  AR
+                  <label class="toggle-switch square">
+                      <input type="checkbox" id="myCheckbox">
+                      <span class="slider"></span>
+                  </label>
+                </div>
+                <script>
+                  var checkbox = document.getElementById('myCheckbox');
+
+                  checkbox.addEventListener('change', (event) => {
+                  if (event.currentTarget.checked) {
+                      window.location.href = 'indexAr.html';
+                    } else {
+                      alert('not checked');
+                    }
+                  })
+                </script>
             </div>
         </div>
 </nav>
